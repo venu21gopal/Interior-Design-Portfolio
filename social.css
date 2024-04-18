@@ -1,0 +1,164 @@
+
+ .icon-bar {
+        position: fixed;
+        top: 70%;
+        right: 0;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+       
+      }
+     
+      .icon-bar a {
+        display: block;
+        text-align: center;
+        padding: 16px;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 20px;
+      }
+ 
+      @media (300px <= width <= 600px){
+        .icon-bar a {
+          padding: 9px;
+        }
+      }
+     
+      .icon-bar a:hover {
+        background-color: #000;
+      }
+     
+      .facebook {
+        background: #3B5998;
+        color: white;
+       
+      }
+     
+      .twitter {
+        background: #55ACEE;
+        color: white;
+      }
+     
+      .instagram {
+        background: #f28e81;
+        color: white;
+      }
+     
+      .whatsapp {
+        background: #05c299;
+        color: white;
+       
+      }
+     
+      .youtube {
+        background: #bb0000;
+        color: white;
+      }
+
+      .Phone{
+        background: green ;
+        color: white;
+      }
+      .pinterest{
+        background: red ;
+      }
+     
+     
+
+.feedback-section {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 60px;
+    width: 320px;
+    background-color: #8dd8c4;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+ 
+.feedback-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+ 
+.feedback-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    font-size: 16px;
+}
+ 
+.feedback-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+ 
+.feedback-buttons button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+ 
+.feedback-buttons button:first-child {
+    margin-left: 0;
+}
+ 
+.feedback-buttons button:hover {
+    background-color: #0056b3;
+}
+ 
+/* Feedback Button Styles */
+.feedback-btn {
+    position: absolute;
+    position: fixed;
+    width: 45px;
+    height: 100px;
+    background: #00cc66;
+    top: 32%;
+    right: 0;
+    border-left: 2px solid #fff;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    box-shadow: 1px 1px 3px #000;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+ 
+@media (300px <= width <= 600px){
+  .feedback-btn{
+    width: 38px;
+  }
+}
+ 
+.feedback-btn:hover {
+    width: 50px;
+}
+ 
+.feedback-txt {
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    position: absolute;
+    right: -10px;
+    top: 30px;
+    color: #fff;
+    transition: 0.2s ease-out;
+}
+ 
+.feedback-btn:hover .feedback-txt {
+    right: -px;
+}  

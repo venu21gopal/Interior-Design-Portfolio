@@ -1,0 +1,426 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.home{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+  
+  }
+  .home .main-text{
+    padding: 70px 10% 10px;
+  }
+  .main-text h1{
+    font-size: 48px;
+    color: #000000;
+    text-shadow: 0px 0px 1px black;
+  }
+  .home .main-text p{
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+  }
+
+  .main-text{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -250px;
+
+  }
+  .heading-container h1{
+    
+    justify-content: space-between;
+  }
+
+  .heading-container{
+    overflow: hidden;
+    
+  }
+  .carousel-card{
+    width: 500px;
+    height: 400px;
+    margin-top: 210px;
+    margin-left: 200px;
+  }
+
+  .carousel-img{
+    width: 500px;
+    height: 400px;
+  }
+  @media (300px <= width <= 600px){
+    .main-text{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      margin-left: -4px;
+      margin-top: -80px;
+      
+     
+    }
+    .heading-container{
+      font-weight: 12px;
+      
+      
+      margin-top: -130px;
+      text-align: center;
+     
+    }
+  .carousel-card{
+    width: 350px;
+    height: 250px;
+    margin-top: -170px;
+    margin-bottom: 0px;
+    margin-left: 2px;
+  }
+  }
+
+  
+
+
+  #btn{
+    width: 200px;
+    height: 36px;
+    font-weight: bold;
+    background: white;
+    color: #000000;
+    letter-spacing: 1px;
+    border: 2px solid #388b6f;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  #btn:hover{
+    background-color: #388b6f;
+    color: rgb(255, 255, 255);
+  }
+ 
+  
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+
+.sliderrr {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  margin-top: -160px;
+}
+
+@media (300px <= width <= 600px){
+.sliderrr{
+margin-bottom: 20px;
+margin-top: -130px;
+}
+
+
+}
+
+.slide-track-11 {
+  animation: scroll-left 5s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+
+.slidee {
+  height: 100px;
+  width: 250px;
+  margin-left: 30px;
+  padding-top: 50px;
+ 
+}
+.slidee img{
+  height: 220px;
+  width: 250px;
+  
+}
+.slidee video{
+  height: 220px;
+  width: 250px;
+}
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+ 
+  100% {
+    transform: translateX(calc(-100px*5));
+  }
+}
+ 
+@keyframes scroll-right {
+  0% {
+    transform: translateX(0);
+  }
+ 
+  100% {
+    transform: translateX(calc(100px*5));
+  }
+}
+
+.opp{
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.imggggg{
+  width: 500px;
+  height: 350px;
+ 
+}
+.opp-2{
+ z-index: -1;
+ overflow: hidden;
+}
+
+
+@media (300px <= width <= 600px){
+  .opp{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .imggggg{
+    width: 350px;
+    height: 250px;
+  }
+  .opp-2{
+    font-size: 12px;
+    padding-left: 10px;
+    margin-top: 15px;
+  }
+  .opp-3{
+    margin-top: 15px;
+  }
+}
+
+
+
+
+.videoplay{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -50px;
+  margin-bottom: 200px;
+}
+@media (300px <= width <= 600px){
+   .videoplay{
+    display: flex;
+    flex-direction: column;
+     }
+     .slidee{
+      margin: 70px;
+     }
+}
+
+.grid-container {
+  z-index: -1;
+  margin-top: 260px;
+ }
+
+.imggg{
+  height: 260px;
+  width: 260px;
+}
+@media (max-width: 650px){
+  .card{
+    left: 50px;
+  }
+}
+@media (max-width: 750px){
+  .card{
+    left: 50px;
+  }
+}
+
+
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+    
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.home {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  padding-top: 50px;
+}
+
+.home .main-text {
+  padding: 70px 5% 10px; /* Adjusted padding for smaller screens */
+}
+
+.main-text h1 {
+  font-size: 36px; /* Adjusted font size for smaller screens */
+}
+
+#btn {
+  width: 150px; /* Adjusted button width for smaller screens */
+  height: 36px;
+  font-weight: bold;
+  background: white;
+  color: #000000;
+  letter-spacing: 1px;
+  border: 2px solid #388b6f;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.heading-container {
+  margin-bottom: 10px; /* Adjusted margin for smaller screens */
+}
+
+/* Add a media query for screens with a maximum width of 767px */
+@media (max-width: 767px) {
+  .home .main-text {
+    padding: 70px 2% 10px; /* Further adjusted padding for smaller screens */
+  }
+
+  .main-text h1 {
+    font-size: 28px; /* Further adjusted font size for smaller screens */
+  }
+
+  #btn {
+    width: 120px; /* Further adjusted button width for smaller screens */
+  }
+
+  .heading-container {
+    margin-bottom: 5px; /* Further adjusted margin for smaller screens */
+  }
+}
+
+/* Add a media query for screens with a maximum width of 574px */
+@media (max-width: 574px) {
+  .home .main-text {
+    padding: 70px 1% 10px; /* Further adjusted padding for even smaller screens */
+  }
+
+  .main-text h1 {
+    font-size: 24px; /* Further adjusted font size for even smaller screens */
+  }
+
+  #btn {
+    width: 100px; /* Further adjusted button width for even smaller screens */
+  }
+
+  .heading-container {
+    margin-bottom: 2px; /* Further adjusted margin for even smaller screens */
+  }
+}
+
+/* Remaining CSS code remains unchanged */
+
+/* ... */
+
+
+
+
+
+
+  
